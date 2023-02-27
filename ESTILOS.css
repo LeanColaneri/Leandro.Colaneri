@@ -1,0 +1,145 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.Inicio .Fotoperfil img{
+    max-width: 250px;
+    border-radius: 75%;
+    border: 7px solid red;
+    position: relative;
+}
+
+body{    
+    background-image: url("FONDO.jpg");
+    background-size: cover;
+    background-position: 0px -100px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+@font-face{
+    font-family: charlie;
+    src: url(THEBOYS.ttf);
+}
+
+@font-face {
+    font-family: vought;
+    src: url(VOUGHT.ttf);
+}
+
+h1{
+    font-family: charlie;
+    margin: 10;
+    padding: 10;
+    color:black;
+    font-size: 60px;
+}
+
+h2{
+    font-family: charlie;
+    margin: 10;
+    padding: 10;
+    color: black;
+    font-size: 30px;
+}
+
+.Inicio header{
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    padding: 20px 50px;
+    font-size: 35px;
+}
+
+p{
+    font-family: vought;
+    margin: 10;
+    padding: 10;
+    color: white;
+}
+
+h3{
+    font-family: charlie;
+    color: black;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 120px;
+}
+
+.Habilidades{
+    padding: 80px 0 100px 0;
+    font-size: 20px;
+    text-align: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    color: black;
+}
+
+.Habilidades .Barras{
+    font-family: vought;
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+    font-size: 30px;
+}
+
+.Habilidades .Barras .Fila{
+    margin-top: 30px;
+}
+
+.Habilidades .Barras .Fila .Columna{
+    text-align: center;
+}
+
+.Habilidades .Barras .Fila .Columna .ContBarra{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.Habilidades .Barras .Barra{
+    display: flex;
+    border: 10px solid red;
+    padding: 2px;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+
+.Habilidades .Barras .Barra .H{
+    background-color: white;
+    width: 20px;
+    height: 30px;
+    margin-right: 2px;
+}
+
+h4{
+    font-family: charlie;
+    color: black;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 175px;
+}
+
+.DescripcionExp{
+    font-family: vought;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    color: white;
+    padding: 50px 50px;
+    font-size: 40px;
+}
+
+.ExpLaboral .Descrip{
+    margin: 0px 70px;
+    text-align: center;
+}
+
+.Contacto{
+    font-family: charlie;
+    color: black;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 175px;
+}
